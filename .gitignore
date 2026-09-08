@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.code_index/
+target/
+build/
+.gradle/
+api_test_report.xlsx
+changes_report.docx
+start_6b7fb2605d51ef31.sh

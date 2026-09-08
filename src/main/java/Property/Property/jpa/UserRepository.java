@@ -7,4 +7,8 @@ import Property.Property.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
+
+    boolean existsByEmail(String email);
+
+    java.util.Optional<User> findByEmail(String email);
 }
